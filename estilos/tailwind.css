@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos personalizados */
+body {
+    @apply bg-gray-100 text-gray-800 font-sans leading-normal;
+}
+
+header {
+    @apply bg-blue-600 text-white py-4;
+}
+
+button {
+    @apply bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition ease-in-out;
+}
+
+.card {
+    @apply bg-white shadow-lg rounded-xl p-4 mb-4;
+}

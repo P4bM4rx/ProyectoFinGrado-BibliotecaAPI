@@ -1,0 +1,32 @@
+#contenedor {
+    margin-top: 20px;
+}
+
+/* Estilos para el texto "Seleccione un libro" */
+#textoSeleccionLibro {
+    font-weight: bold;
+}
+
+/* Estilos para el formulario de búsqueda */
+#formBusqueda input[type="text"] {
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#formBusqueda button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#formBusqueda button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el contenedor de libros */
+#contenedorLibros {
+    margin-top: 20px;
+}

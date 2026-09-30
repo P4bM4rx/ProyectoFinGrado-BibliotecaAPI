@@ -1,0 +1,68 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Fondo claro */
+    color: #333; /* Color de texto principal */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Centrar verticalmente */
+}
+
+/* Contenedor principal */
+.login-container {
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 2rem;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Mensaje de bienvenida */
+.emailUsuario {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #2c3e50; /* Color oscuro */
+    margin-bottom: 1.5rem;
+}
+
+/* Estilos para los enlaces */
+a {
+    display: block;
+    margin-bottom: 15px; /* Más espaciado entre enlaces */
+    color: #007bff; /* Color azul */
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #007bff; /* Borde azul */
+    border-radius: 4px; /* Bordes redondeados */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+    background-color: #007bff; /* Fondo azul al pasar el ratón */
+    color: #ffffff; /* Texto blanco */
+    text-decoration: none;
+}
+
+/* Enlaces de administrador */
+.admin-links {
+    margin-top: 2rem;
+    border-top: 1px solid #e9ecef; /* Línea separadora */
+    padding-top: 1.5rem;
+}
+
+.admin-links a {
+    background-color: #28a745; /* Color verde para enlaces de admin */
+    border-color: #28a745;
+    color: #ffffff;
+}
+
+.admin-links a:hover {
+    background-color: #218838; /* Verde más oscuro al pasar el ratón */
+    border-color: #218838;
+}

@@ -1,0 +1,47 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #007bff; /* Color de fondo azul */
+    color: white; /* Color del texto blanco */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+}
+
+/* Estilos para el título de la página */
+.tituloPagina {
+    margin: 0; /* Elimina el margen predeterminado */
+}
+
+/* Estilos para el formulario de inicio de sesión */
+#formLogin {
+    margin-top: 20px; /* Espaciado superior */
+    text-align: center; /* Centrar el formulario */
+}
+
+#formLogin input[type="text"],
+#formLogin input[type="password"] {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Espaciado inferior */
+}
+
+#formLogin input[type="submit"] {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    background-color: #007bff; /* Color de fondo azul */
+    color: white; /* Color del texto blanco */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+}
+
+#formLogin input[type="submit"]:hover {
+    background-color: #0056b3; /* Color de fondo más oscuro al pasar el ratón */
+}
+
+#formLogin a {
+    color: #007bff; /* Color del enlace azul */
+    text-decoration: none; /* Sin subrayado */
+}
+
+#formLogin a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}

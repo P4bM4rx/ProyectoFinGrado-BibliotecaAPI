@@ -1,0 +1,54 @@
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilo para la imagen del libro */
+  td img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para los enlaces de acciones */
+  td a {
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+  }
+  
+  td a:hover {
+    text-decoration: underline;
+    color: darkblue;
+  }
+  
+  /* Estilo para los botones de acción */
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
